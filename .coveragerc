@@ -1,0 +1,3 @@
+[run]
+source = d0nut_sh
+omit = d0nut_sh/test*

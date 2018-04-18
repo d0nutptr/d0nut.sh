@@ -3,3 +3,11 @@
 
 ## Purpose
 This is the source code for my personal site. Eventually, it'll store blog posts, PoCs, and useful utilities.
+
+## How to Run
+
+- `cd <directory containing this file>`
+
+- `$VENV/bin/pip install -e .`
+
+- `$VENV/bin/pserve development.ini`
