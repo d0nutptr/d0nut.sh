@@ -12,15 +12,21 @@ def utils(config):
     config.add_route('utils_home', '')
     config.include(utils_redirect, route_prefix='/redirect')
 
+def auth(config):
+    config.add_route('login', '')
+    config.add_route('register', 'register')
+
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
     config = Configurator(settings=settings)
     config.add_renderer('prettyjson', JSON(indent=4))
     config.include('pyramid_jinja2')
+
     config.add_static_view('static', 'static', cache_max_age=3600)
     config.add_route('home', '/')
 
+    config.include(auth, route_prefix='/auth')
     config.include(utils, route_prefix='/utils')
 
     config.scan()

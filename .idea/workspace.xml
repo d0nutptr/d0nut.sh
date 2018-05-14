@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="098baae9-189f-44a6-91d6-4e464cae968a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/d0nut_sh/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d0nut_sh/utils_redirect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/d0nut_sh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/d0nut_sh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d0nut_sh/templates/login.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d0nut_sh/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d0nut_sh/utils/security/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d0nut_sh/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/d0nut_sh/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/development.ini" beforeDir="false" afterPath="$PROJECT_DIR$/development.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production.ini" beforeDir="false" afterPath="$PROJECT_DIR$/production.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d0nut_sh/templates/layout.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d0nut_sh/templates/mytemplate.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/d0nut_sh/templates/home.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d0nut_sh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/d0nut_sh/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,39 +19,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/d0nut_sh$py_test_in_tests_py.coverage" NAME="py.test in tests.py Coverage Results" MODIFIED="1526263231462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/d0nut_sh$d0nut_sh.coverage" NAME="d0nut_sh Coverage Results" MODIFIED="1526262996414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/d0nut_sh$py_test_in_tests_py.coverage" NAME="py.test in tests.py Coverage Results" MODIFIED="1526265952627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/d0nut_sh$d0nut_sh.coverage" NAME="d0nut_sh Coverage Results" MODIFIED="1526271064290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layout.jinja2" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/layout.jinja2">
+      <file leaf-file-name="_layout.jinja2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="354">
+              <caret line="31" column="96" selection-start-line="31" selection-start-column="96" selection-end-line="31" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mytemplate.jinja2" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/mytemplate.jinja2">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/d0nut_sh/__init__.py">
+        <entry file="file://$PROJECT_DIR$/d0nut_sh/utils/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="195">
+              <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/d0nut_sh/views.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d0nut_sh/utils/security/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
@@ -58,20 +54,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.ini" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/development.ini">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d0nut_sh/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production.ini">
+      <file leaf-file-name="login.jinja2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/login.jinja2">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="home.jinja2" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/home.jinja2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="4" column="92" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d0nut_sh/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -111,12 +124,17 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/production.ini" />
-        <option value="$PROJECT_DIR$/d0nut_sh/views.py" />
         <option value="$PROJECT_DIR$/d0nut_sh/redir_utils.py" />
         <option value="$PROJECT_DIR$/d0nut_sh/utils.py" />
-        <option value="$PROJECT_DIR$/d0nut_sh/__init__.py" />
         <option value="$PROJECT_DIR$/d0nut_sh/utils_redirect.py" />
         <option value="$PROJECT_DIR$/development.ini" />
+        <option value="$PROJECT_DIR$/d0nut_sh/security/authorization/__init__.py" />
+        <option value="$PROJECT_DIR$/d0nut_sh/utils/security/__init__.py" />
+        <option value="$PROJECT_DIR$/d0nut_sh/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/d0nut_sh/__init__.py" />
+        <option value="$PROJECT_DIR$/d0nut_sh/views.py" />
+        <option value="$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2" />
+        <option value="$PROJECT_DIR$/d0nut_sh/templates/home.jinja2" />
       </list>
     </option>
   </component>
@@ -136,21 +154,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="d0nut_sh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="d0nut_sh" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -162,6 +169,53 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="d0nut_sh" type="cbb8eebc:String" user="d0nut_sh" />
               <item name="d0nut_sh" type="cbb8eebc:String" user="d0nut_sh" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="d0nut_sh" type="cbb8eebc:String" user="d0nut_sh" />
+              <item name="d0nut_sh" type="cbb8eebc:String" user="d0nut_sh" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="d0nut_sh" type="cbb8eebc:String" user="d0nut_sh" />
+              <item name="d0nut_sh" type="cbb8eebc:String" user="d0nut_sh" />
+              <item name="utils" type="cbb8eebc:String" user="utils" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="d0nut_sh" type="cbb8eebc:String" user="d0nut_sh" />
+              <item name="d0nut_sh" type="cbb8eebc:String" user="d0nut_sh" />
+              <item name="utils" type="cbb8eebc:String" user="utils" />
+              <item name="security" type="cbb8eebc:String" user="security" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="d0nut_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d0nut_sh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d0nut_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d0nut_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="d0nut_sh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d0nut_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d0nut_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="d0nut_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d0nut_sh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d0nut_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="d0nut_sh" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,6 +230,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/d0nut_sh/utils" />
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/d0nut_sh" />
       <recent name="$PROJECT_DIR$" />
@@ -194,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in tests.py">
+  <component name="RunManager" selected="Pyramid server.d0nut_sh">
     <configuration name="d0nut_sh" type="Python.PyramidServer" factoryName="Pyramid server">
       <module name="d0nut_sh" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,6 +327,12 @@
     <history-entry file="py_test_in_tests_py - 2018.05.13 at 19h 00m 31s.xml">
       <configuration name="py.test in tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_tests_py - 2018.05.13 at 19h 45m 43s.xml">
+      <configuration name="py.test in tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tests_py - 2018.05.13 at 19h 45m 57s.xml">
+      <configuration name="py.test in tests.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="27" width="1920" height="1053" extended-state="6" />
@@ -282,11 +343,12 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3390558" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3390558" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33798283" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -297,7 +359,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,8 +367,64 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="jinja2-line">
+          <url>file://$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2</url>
+          <line>31</line>
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/layout.jinja2">
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
@@ -355,7 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/layout.jinja2">
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
@@ -403,7 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/layout.jinja2">
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
@@ -510,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/webob/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="88" column="26" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/pyramid/response.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -558,33 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/mytemplate.jinja2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/layout.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d0nut_sh/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d0nut_sh/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -596,6 +679,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib.linux-x86_64-2.7/d0nut_sh/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/utils/security/authorization/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/webob/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="179" column="40" selection-start-line="179" selection-start-column="34" selection-end-line="179" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/utils/security/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/login.jinja2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/_layout.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="31" column="96" selection-start-line="31" selection-start-column="96" selection-end-line="31" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d0nut_sh/templates/home.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="92" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
         </state>
       </provider>
     </entry>

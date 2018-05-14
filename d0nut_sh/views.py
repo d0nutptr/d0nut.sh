@@ -1,6 +1,5 @@
-from pyramid.view import view_config
+from d0nut_sh.utils import web
 
-
-@view_config(route_name='home', renderer='templates/mytemplate.jinja2')
-def my_view(request):
+@web(route_name='home')
+def home(request):
     return {'project': 'd0nut_sh'}
