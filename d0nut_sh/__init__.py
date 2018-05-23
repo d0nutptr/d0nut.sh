@@ -1,4 +1,5 @@
 from pyramid.config import Configurator
+from pyramid.httpexceptions import HTTPNotFound
 from pyramid.renderers import JSON
 
 def main(global_config, **settings):
@@ -15,7 +16,14 @@ def main(global_config, **settings):
 
     config.scan()
 
+    config.add_notfound_view(not_found, append_slash=True),
+
     return config.make_wsgi_app()
+
+
+def not_found(request):
+    return HTTPNotFound()
+
 
 def auth(config):
     config.add_route('auth/login', '/')
